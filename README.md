@@ -38,4 +38,4 @@ SOFTWARE.
 
 ---
 
-© 2022 xxx Confidential and Proprietary. All Rights Reserved.
+© 2024 Confidential and Proprietary. All Rights Reserved.
