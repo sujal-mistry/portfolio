@@ -1,0 +1,40 @@
+footer {
+  /* background: var(--color-primary); */
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+footer a {
+  color: var(--color-bg);
+}
+
+.footer__logo {
+  font-size: 1rem;
+  font-weight: 500;
+  /* margin-bottom: 2rem; */
+  display: inline-block;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin-bottom: 6rem;
+}
+
+.footer-btn {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer_copyright {
+  margin-bottom: 0.3rem;
+}
+
+.footer_copyright small {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}

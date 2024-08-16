@@ -1,0 +1,151 @@
+
+
+.about__container {
+    display: grid;
+    grid-template-columns: 50% 35%;
+    gap: 15%;
+}
+
+.about__cards p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+
+/* .about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: linear-gradient(var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+} */
+
+
+.lego_ul {
+    margin-top: 3rem;
+    transform: skewY(-15deg);
+}
+
+.lego_li {
+    position: relative;
+    width:380px;
+    background: #3e3f46;
+    padding: 14px;
+    font-size: 13px;
+    transition: 0.5s;
+    z-index: calc(1* var(--i));
+    color: rgb(194, 194, 194);
+}
+
+.lego_li:hover {
+    transform: translateX(-50px);
+    background: var(--clr);
+    color: white;
+    transition: 0.5s;
+}
+
+.lego_li::before {
+    content: "";
+    position: absolute;
+    background: #3e3f46;
+    height: 100%;
+    width: 40px;
+    top:0;
+    left: -40px;
+    filter: brightness(0.7);
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+}
+
+.lego_li:hover::before {
+    background: var(--clr);
+    filter: brightness(0.7);
+}
+
+.lego_li::after {
+    content: "";
+    position: absolute;
+    top:-40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #3e3f46;
+    filter: brightness(0.9);
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+
+.lego_li:hover::after {
+    background: var(--clr);
+    filter: brightness(0.9);
+}
+
+.lego_li:last-child::after {
+    box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+}
+
+span {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    top:0;
+    left: -40px;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+
+
+/* media queries tablet */
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__cards p {
+        margin: 1rem 0 1.5rem;
+    }
+
+    .about__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* media queries phone */
+@media screen and (max-width: 600px) {
+
+    .about__cards {
+        width: 90vw;
+    }
+
+    .about__me {
+        width: 100%;
+        margin: 3rem auto 3rem;
+    }
+
+    .lego_ul {
+        margin-left: 25%;
+    }
+
+    .lego_li {
+      width: 90%;
+      font-size: 10px;
+    }
+}
