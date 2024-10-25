@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.614acfff.css",
-    "main.js": "/portfolio/static/js/main.3fff01ef.js",
+    "main.js": "/portfolio/static/js/main.a80e035d.js",
     "static/media/cartoon.jpg": "/portfolio/static/media/cartoon.53d38c256a41ab184ea2.jpg",
-    "static/media/profile.jpeg": "/portfolio/static/media/profile.7dc8a932e5f34251866a.jpeg",
-    "static/media/doc.png": "/portfolio/static/media/doc.565adb07d2150beb6501.png",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.40d4072b02047a38e24a.jpeg",
+    "static/media/dp_900.jpg": "/portfolio/static/media/dp_900.144bc2d1d9da44687f62.jpg",
     "static/media/b.jpeg": "/portfolio/static/media/b.9ee90238a9bcfb20ba84.jpeg",
-    "static/media/Sujal_software_developer_2.pdf": "/portfolio/static/media/Sujal_software_developer_2.e9f8f36a165a05b6a612.pdf",
+    "static/media/udemy.jpg": "/portfolio/static/media/udemy.6aa07cc81da6837c2a70.jpg",
+    "static/media/software_engineer.png": "/portfolio/static/media/software_engineer.afe21e90ba56d72a2d5b.png",
+    "static/media/sql.png": "/portfolio/static/media/sql.e0df4782c0ca8fbdfe63.png",
+    "static/media/react.png": "/portfolio/static/media/react.5e8a0b5042a1fed51601.png",
+    "static/media/sujal_mistry_resume.pdf": "/portfolio/static/media/sujal_mistry_resume.5ef5e3e77be00c122d70.pdf",
     "index.html": "/portfolio/index.html",
     "main.614acfff.css.map": "/portfolio/static/css/main.614acfff.css.map",
-    "main.3fff01ef.js.map": "/portfolio/static/js/main.3fff01ef.js.map"
+    "main.a80e035d.js.map": "/portfolio/static/js/main.a80e035d.js.map"
   },
   "entrypoints": [
     "static/css/main.614acfff.css",
-    "static/js/main.3fff01ef.js"
+    "static/js/main.a80e035d.js"
   ]
 }
